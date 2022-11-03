@@ -94,7 +94,6 @@ body {
 .contact-icon1 {
     margin-right: 10px;
     color: var(--barnd-color-data);
-    
 }
 
 .contact-icon2 {
@@ -102,7 +101,10 @@ body {
     margin-right: 10px;
     color: var(--barnd-color-data);
 }
-
+.contact-data svg {
+    fill: var(--brand-color-data);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .contact-data {
     font-family: 'Roboto';
     font-style: normal;
@@ -112,10 +114,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--brand-color-data);
     text-decoration: none;
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-data:hover svg {
-    --color2: var(--barnd-color-aktyw);
+    fill: var(--barnd-color-aktyw);
 }
 .contact-data:hover {
     color: var(--barnd-color-aktyw);
@@ -152,7 +154,8 @@ body {
     padding: 6px 22px;
     max-width: 121px;
     margin-right: 8px;
-   
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn2 {
     font-family: 'Roboto';
@@ -169,7 +172,8 @@ body {
     padding: 6px 22px;
     max-width: 93px;
     margin-right: 8px;
-    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn3 {
     font-family: 'Roboto';
@@ -186,7 +190,8 @@ body {
     padding: 6px 22px;
     max-width: 114px;
     margin-right: 8px;
-  
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn4 {
     font-family: 'Roboto';
@@ -203,7 +208,8 @@ body {
     padding: 6px 22px;
     max-width: 91px;
     margin-right: 8px;
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn5 {
     font-family: 'Roboto';
@@ -220,6 +226,8 @@ body {
     padding: 6px 22px;
     max-width: 121px;
     margin-right: 8px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .filtr .btn1:hover,
@@ -254,7 +262,7 @@ li:hover .pic-hid {
     left: 0;
     top: 0;
     background-color: rgba(33, 150, 243, 0.9);
-    transform: translateY(100%);
+    transform: translateY(101%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .p1 {
@@ -383,6 +391,10 @@ li:hover .pic-hid {
     max-width: 231px;
 
 }
+.info {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 .info:hover,
 .info:focus {
     color: var(--barnd-color-aktyw);
@@ -417,10 +429,10 @@ li:hover .pic-hid {
     border-radius: 50%;
     margin: 0 10px;
     padding: 12px;
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon3 {
-    --color3: var(--brand-color);
+    fill: var(--brand-color);
 }
 .box-icon3:hover,
 .box-icon3:focus {

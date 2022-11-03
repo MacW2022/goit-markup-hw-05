@@ -99,15 +99,15 @@ body {
 }
 .contact-icon1 {
     margin-right: 10px;
-    color: var(--barnd-color-data);
-    
+    fill: var(--barnd-color-data);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-icon2 {
     margin-left: 30px;
     margin-right: 10px;
-    color: var(--barnd-color-data);
-    
+    fill: var(--barnd-color-data);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-data {
@@ -420,11 +420,11 @@ body {
     fill: var(--brand-color-icon2);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.box-icon2:hover,
-.box-icon2:focus,
-a:hover svg,
-a:focus svg {
+
+.picture2-icon a:hover {
     background-color: var(--brand-color-hover);
+}
+.picture2-icon a:hover svg {
     fill: var(--brand-color);
 }
 .section5 {
