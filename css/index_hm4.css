@@ -194,6 +194,7 @@ body {
 }
 .modal-btn {
     position: absolute;
+    display: flex;
     top: 8px;
     right: 8px;
     width: 30px;
@@ -408,6 +409,7 @@ body {
     
 }               
 .box-icon2 {
+    display: flex;
     max-width: 44px;
     height: 44px;
     background-color: var(--brand-color);
