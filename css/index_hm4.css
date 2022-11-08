@@ -464,10 +464,11 @@ body {
     border-radius: 5px;
     display: block;
     fill: var(--brand-color-icon2);
+}
+.pct1 {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.section5-pictures a:hover svg {
+.sec5-picture:hover svg {
     fill: var(--brand-color-hover);
 }
 .sec5-picture:hover {
@@ -582,15 +583,14 @@ body {
     border-radius: 50%;
     margin: 0 10px;
     padding: 12px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
 .icon3 {
     fill: var(--brand-color);
 }
-.box-icon3 {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .box-icon3:hover,
 .box-icon3:focus {
     background-color: var(--brand-color-hover);
